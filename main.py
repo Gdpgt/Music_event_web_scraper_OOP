@@ -1,3 +1,6 @@
+# Scraps the next upcoming tours of rock bands from a website, stores them in
+# an SQL database, and sends an email each time a new date appears online
+
 import requests
 import selectorlib
 import smtplib, ssl

@@ -33,7 +33,7 @@ class Email:
         port = 465
 
         username = os.getenv('MY_EMAIL_ADDRESS')
-        password = os.getenv('PASSWORD_Company')
+        password = os.getenv('PASSWORD_TRAINING')
 
         receiver = os.getenv('MY_EMAIL_ADDRESS')
         my_context = ssl.create_default_context()
